@@ -1,0 +1,33 @@
+#!/usr/bin/env jruby
+require 'optparse'
+require 'rdf/jena'
+require 'rdf/turtle'
+
+# options; any default go here
+options = {}
+
+# parse options from cli
+OptionParser.new do |opts|
+  opts.banner = %Q{
+    Builds an Apache Jena TDB database from RDF files.
+
+    Usage: rdf-jena -d [DIR] -f [FILE] -f [FILE] ...
+  }.gsub(/^ +/, '')
+
+  opts.on('-d', '--dir DIR', 'The directory where the TDB database will live.') do |dir|
+    options[:dir] = dir
+  end
+
+  opts.on('-f', '--file FILE', 'An RDF file to load.', 'Can be used multiple times.') do |file|
+		(options[:files] ||= []) << file
+	end 
+end.parse!
+
+tdb_repository = RDF::Jena::Repository.new(options[:dir])
+
+options[:files].each do |file|
+  $stdout.puts %Q{Loading RDF from "#{file}".}
+  tdb_repository.insert_file(file)
+end
+
+$stdout.puts %Q{Created TDB database at "#{options[:dir]}".}
