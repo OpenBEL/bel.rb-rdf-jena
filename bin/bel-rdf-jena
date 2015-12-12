@@ -11,7 +11,7 @@ OptionParser.new do |opts|
   opts.banner = %Q{
     Builds an Apache Jena TDB database from RDF files.
 
-    Usage: rdf-jena -d [DIR] -f [FILE] -f [FILE] ...
+    Usage: bel-rdf-jena -d [DIR] -f [FILE] -f [FILE] ...
   }.gsub(/^ +/, '')
 
   opts.on('-d', '--dir DIR', 'The directory where the TDB database will live.') do |dir|
