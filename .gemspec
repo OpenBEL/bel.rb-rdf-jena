@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                     = 'bel-rdf-jena'
-  spec.version                  = '0.4.0.beta1'
+  spec.version                  = '0.4.0.beta2'
   spec.summary                  = """
                                     Rdf Repository plugin for bel.rb using Apache Jena.
                                   """.gsub(%r{^\s+}, ' ').gsub(%r{\n}, '')
