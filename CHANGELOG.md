@@ -3,6 +3,10 @@ All notable changes to bel-rdf-jena will be documented in this file. The curated
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.0][0.4.0] - 2015-12-14
+### Changed
+- Official release along [bel.rb][bel.rb] 0.4.0.
+
 ## [0.4.0.beta2][0.4.0.beta2] - 2015-12-11
 ### Added
 - Added bel-rdf-jena executable that allows creation of Apache Jena TDB databases from RDF files.
@@ -10,3 +14,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.4.0.beta1][0.4.0.beta1] - 2015-12-01
 ### Added
 - Added RDF Repository plugin for bel.rb using rdf-jena gem.
+
+[bel.rb]: https://rubygems.org/gems/bel
