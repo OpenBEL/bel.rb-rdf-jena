@@ -3,6 +3,10 @@ All notable changes to bel-rdf-jena will be documented in this file. The curated
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.1][0.4.1] - 2015-12-17
+### Changed
+- Allow [bel.rb][bel.rb] gem dependency within 0.4.x (pessimistic version qualifier).
+
 ## [0.4.0][0.4.0] - 2015-12-14
 ### Changed
 - Official release along [bel.rb][bel.rb] 0.4.0.
@@ -16,3 +20,4 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Added RDF Repository plugin for bel.rb using rdf-jena gem.
 
 [bel.rb]: https://rubygems.org/gems/bel
+[0.4.1]:  https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.0...0.4.1
