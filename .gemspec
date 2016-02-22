@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
                                   ]
 
   spec.platform                 = 'java'
-  spec.add_runtime_dependency     'bel',      '>= 0.4.0'
+  spec.add_runtime_dependency     'bel',      '>= 0.4.0', '< 1.0.0'
   spec.add_runtime_dependency     'rdf-jena', '0.3.4'
   spec.post_install_message     = %Q{
 ******************************

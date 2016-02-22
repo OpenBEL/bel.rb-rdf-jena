@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.4.2][0.4.2] - 2016-02-03
 ### Changed
 - Upgraded [rdf-jena][rdf-jena] dependency to version 0.3.4.
-- Dependency on *bel* gem greater than or equal to 0.4.0.
+- Dependency on *bel* gem between (0.4.0, 1.0.0).
 
 ## [0.4.1][0.4.1] - 2015-12-17
 ### Changed
