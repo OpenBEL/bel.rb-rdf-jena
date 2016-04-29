@@ -3,6 +3,10 @@ All notable changes to bel-rdf-jena will be documented in this file. The curated
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.3][0.4.3] - TBD
+### Changed
+- Upgraded [rdf-jena][rdf-jena] dependency to version 0.4.0.
+
 ## [0.4.2][0.4.2] - 2016-02-03
 ### Changed
 - Upgraded [rdf-jena][rdf-jena] dependency to version 0.3.4.
@@ -26,5 +30,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 [bel.rb]:   https://rubygems.org/gems/bel
 [rdf-jena]: https://rubygems.org/gems/rdf-jena
+[0.4.3]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.2...0.4.3
 [0.4.2]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.1...0.4.2
 [0.4.1]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.0...0.4.1
