@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                     = 'bel-rdf-jena'
-  spec.version                  = '1.0.0.beta.1'
+  spec.version                  = '1.0.0'
   spec.summary                  = """
                                     Rdf Repository plugin for bel.rb using Apache Jena.
                                   """.gsub(%r{^\s+}, ' ').gsub(%r{\n}, '')
@@ -38,8 +38,8 @@ Gem::Specification.new do |spec|
                                   ]
 
   spec.platform                 = 'java'
-  spec.add_runtime_dependency     'bel',      '~> 1.0.0.beta'
-  spec.add_runtime_dependency     'rdf-jena', '0.4.0.beta'
+  spec.add_runtime_dependency     'bel',      '~> 1.0.0'
+  spec.add_runtime_dependency     'rdf-jena', '~> 0.4.0'
   spec.post_install_message     = %Q{
 ******************************
 *  bel-rdf-jena plugin       *
