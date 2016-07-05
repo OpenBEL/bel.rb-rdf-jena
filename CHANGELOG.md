@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Upgraded [rdf-jena][rdf-jena] dependency to version 0.4.0.
 - Dependency on *bel* gem set to `>= 1.0.0` but `< 1.1.0`.
 
-## [0.4.2][0.4.2] - 2016-02-03
+## 0.4.2 - 2016-02-03
 ### Changed
 - Upgraded [rdf-jena][rdf-jena] dependency to version 0.3.4.
 - Dependency on *bel* gem between (0.4.0, 1.0.0).
@@ -31,6 +31,5 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 [bel.rb]:   https://rubygems.org/gems/bel
 [rdf-jena]: https://rubygems.org/gems/rdf-jena
-[1.0.0]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.2...1.0.0
-[0.4.2]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.1...0.4.2
+[1.0.0]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.1...1.0.0
 [0.4.1]:    https://github.com/OpenBEL/bel.rb-rdf-jena/compare/0.4.0...0.4.1
