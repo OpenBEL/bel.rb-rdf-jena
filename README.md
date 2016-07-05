@@ -72,5 +72,39 @@ rdf_jena_plugin = BEL::RdfRepository.plugins[:jena]
 
 rdf_jena_plugin.create_repository(:tdb_directory => 'data')
 ```
-
 - Enjoy access to RDF datasets through Apache Jena!
+
+## Development
+
+### branches
+
+- master branch
+  - Contains stable code. Releases are created from this branch using a tag (e.g. `MAJOR.MINOR.PATCH`).
+
+- next branch
+  - Contains unstable code. Commits should be merged into master after it stabilizes.
+
+### releases
+
+Releases of *bel-rdf-jena* should follow these steps:
+
+1. Update the version in the `VERSION` file.
+
+2. Add changes for this version to the `CHANGELOG` file. This file is modelled after http://keepachangelog.com/.
+
+3. Push the changes for `VERSION` and `CHANGELOG` on the master branch.
+
+4. Ensure the *master* branch has all of the required changes.
+
+5. Create a git tag, named after the version, on the *master* branch. Push this tag to GitHub.
+
+6. Create the Ruby and Java RubyGem for *bel-rdf-jena*.
+
+  `gem build .gemspec`
+
+7. Create a release on GitHub for this version and attach the gem file.
+
+8. Push gems to RubyGems.
+
+  `gem push bel-rdf-jena-VERSION-java.gem`
+
