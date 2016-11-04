@@ -1,6 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name                     = 'bel-rdf-jena'
-  spec.version                  = '1.0.0'
+  spec.version                  = File.read(File.join(
+                                    File.expand_path(File.dirname(__FILE__)),
+                                    'VERSION'))
   spec.summary                  = """
                                     Rdf Repository plugin for bel.rb using Apache Jena.
                                   """.gsub(%r{^\s+}, ' ').gsub(%r{\n}, '')
